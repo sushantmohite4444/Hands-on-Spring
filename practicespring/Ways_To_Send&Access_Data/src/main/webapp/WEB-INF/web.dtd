@@ -1,0 +1,5 @@
+<!ELEMENT web-app (#PCDATA|web-app|display-name|servlet-name|url-pattern|servlet-class)*>
+<!ELEMENT display-name (#PCDATA)>
+<!ELEMENT servlet-name (#PCDATA)>
+<!ELEMENT url-pattern (#PCDATA)>
+<!ELEMENT servlet-class (#PCDATA)>

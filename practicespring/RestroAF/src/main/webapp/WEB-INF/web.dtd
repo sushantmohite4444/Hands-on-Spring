@@ -1,0 +1,6 @@
+<!ELEMENT web-app (#PCDATA|servlet-name|servlet|servlet-mapping|display-name)*>
+<!ELEMENT servlet-name (#PCDATA)>
+<!ELEMENT servlet (servlet-class?,servlet-name?)>
+<!ELEMENT servlet-mapping (servlet-class,servlet-name)>
+<!ELEMENT servlet-class (#PCDATA)>
+<!ELEMENT display-name (#PCDATA)>

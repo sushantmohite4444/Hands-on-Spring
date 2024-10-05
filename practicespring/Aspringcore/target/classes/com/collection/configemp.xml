@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+
+xmlns:p="http://www.springframework.org/schema/p"
+>
+
+<bean class="com.collection.Employees" name="emp1">
+		<property name="id">
+		<value>1</value>
+		</property>
+		
+		<property name="phone">
+		<list>
+		<value>12345678</value>
+		<value>12345678</value>
+		<value>1234333678</value>
+		<value>1234567448</value>
+		<null/>
+		</list>
+		</property>
+		
+		<property name="address">
+		<set>
+		<value>Bahe</value>
+		<value>Satara</value>
+		<value>Pune</value>
+		<null/>
+		</set>
+		</property>
+		
+		<property name="course">
+		<map>
+		<entry key="java" value="10"></entry>
+		<entry key="c" value="10"></entry>
+		<entry key="sql" value="10"></entry>
+		</map>
+		</property>
+		
+		<property name="p">
+		<props>
+		<prop key="name">connection</prop>
+		
+		<prop key="jdbc.driver">connection2</prop>
+		</props>
+		</property>
+		
+		
+</bean>
+</beans>
